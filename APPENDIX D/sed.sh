@@ -1,5 +1,5 @@
-# Sed is a stream editor. It's a good option if you want edit text files directly from the CLI.
-# Here's how i would print all the files that do not have "#" prefixed as their first Character.
+# Sed is a stream editor. It's a good option if you want to edit text files directly from the CLI.
+# Here's how i would print all the lines that do not have "#" prefixed as their first Character from a file called host.deny
 
 sed -e '/^#/d' host.deny | tail 
 
