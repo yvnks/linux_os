@@ -1,4 +1,4 @@
-# awk is the appropriate style to print content on the cli.
+# awk is the appropriate way to print content on the cli.
 # cat means concatenate and it's a style of convention.
 
 awk '{print;}' host.deny | tail 
